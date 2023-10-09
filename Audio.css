@@ -1,0 +1,85 @@
+/* Setting a nice background color */
+body {
+    background-color: #b9f1ff;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the content container for image */
+.content-container {
+    padding: 5%;
+    max-width: 30%;
+    margin: 1% auto;
+    border-radius: 1%;
+    box-shadow: 0 0 20px rgba(1, 70, 148, 0.1);
+    background-color: #4412b9;  /* Different background color for contrast */
+    text-align: center;  /* Centering content */
+}
+
+/* Styling the heading */
+h1 {
+    color: #5F9EA0;
+    margin-bottom: 20px; /* Adds some space below the heading */
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+/*to format the space where the image, the palindrome and miusic is some things that I found omline...*/
+.fieldset-container {
+    display: flex;
+    justify-content: space-around; /* Horizontally space out the fieldsets */
+    align-items: center; /* Vertically center the fieldsets */
+    flex-wrap: wrap; /* Allow the fieldsets to wrap to the next line on smaller screens */
+}
+/*where the palindrome amd miusic buttons
+fieldset {
+
+    align-content: center;
+    max-width: 1000px; 
+    width: 75%; 
+    margin: 2%;
+}
+
+/* Styling buttons */
+button {
+    background-color: #5F9EA0;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #163235; /* A darker shade for hover effect */
+}
+
+.colorful-button {
+    background-color: rgb(170, 86, 248);  /* Replace color on miusic buttons*/
+    color:rgb(77, 76, 76);             
+}
+/* Image arrangement */
+
+.content-container img {
+    max-width: 60%; 
+    margin: 0 auto; 
+    display: block; 
+}
+...
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+

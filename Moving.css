@@ -1,0 +1,54 @@
+/*main arangement for the page*/
+body {
+text-align: center;
+font-family: 'Lemon', cursive;
+background-color: #52e4d3;
+padding: 20px;
+position: relative;  /* This ensures that the absolute positioning of the button is relative to the body */
+}
+
+.Home-button {
+    position: absolute;  /* This will take the button out of the normal flow and allow you to position it anywhere */
+    top: 10px;          /* Distance from the top of the page */
+    right: 10px;        /* Distance from the right of the page */
+}
+
+
+}
+#memeImage {
+position: absolute;
+transition: transform 0.5s ease-in-out;
+}
+
+/*fixing the buttons*/
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* This will make the buttons rounded */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px; /* Adding a little space between buttons */
+}
+
+button:hover {
+    transform: scale(1.05); /* Button enlarges slightly when hovered */
+}
+
+/* Style for the select veicle buttons */
+button:not(#startButton):not(#stopButton) {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+/* Style for the start button */
+#startButton {
+    background-color: #fbc02d; /* Golden color */
+    color: white;
+}
+
+/* Style for the stop button */
+#stopButton {
+    background-color: #e53935; /* Red color */
+    color: white;
+}
